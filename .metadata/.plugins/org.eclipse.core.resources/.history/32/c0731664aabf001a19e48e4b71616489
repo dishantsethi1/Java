@@ -1,0 +1,15 @@
+package oop;
+
+class Vehicle{
+	int wheels;
+	
+}
+
+public class Constructors {
+	public static void main(String[] args) {
+		Vehicle car=new Vehicle();
+		System.out.println(car.wheels);
+		
+	}
+
+}

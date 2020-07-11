@@ -1,0 +1,32 @@
+package oop;
+
+class Vehicle{
+	int wheels;
+	int headLights;
+	String color;
+	
+	Vehicle(int wheels){
+		this.wheels=wheels;
+		headLights=2;
+	}
+	
+	Vehicle(int wheels,String color)
+	{
+		this.wheels=wheels;
+		this.color=color;
+		headLights=2;
+	}
+	
+}
+
+public class Constructors {
+	public static void main(String[] args) {
+		Vehicle car=new Vehicle(3);
+		Vehicle ricks=new Vehicle(4,"yellow");
+		
+		
+		System.out.println(ricks.wheels+ricks.color);
+		
+	}
+
+}
